@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/search/search",
+    "pages/menu/menu",
+    "pages/chat/chat",
+    "pages/voice/voice",
+    "pages/list/menu7/menu7",
+    "pages/list/menu3/menu3",
+    "pages/list/menu2/menu2",
+    "pages/list/menu1/menu1",
+    "pages/list/menu6/menu6",
+    "pages/list/menu5/menu5",
+    "pages/list/menu4/menu4",
+    "pages/accordion/accordion"
+  ],
+  "window": {
+    "navigationStyle": "custom",
+    "backgroundTextStyle": "dark",
+    "backgroundColorBottom": "#fff",
+    "backgroundColorTop": "#000"
+  },
+
+  "plugins": {
+    "WechatSI": {
+      "version": "0.2.2",
+      "provider": "wx069ba97219f66d99"
+    }
+  },
+  "usingComponents": {
+  },
+  "sitemapLocation": "sitemap.json"
+}

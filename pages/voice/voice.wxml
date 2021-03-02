@@ -1,0 +1,9 @@
+
+
+<view>
+
+    <view class="note-btn" bindtouchstart="streamRecord" bindtouchend="streamRecordEnd">
+        <image src="../../images/voice.png" width="64rpx" width="64rpx"></image>
+    </view>
+
+</view>

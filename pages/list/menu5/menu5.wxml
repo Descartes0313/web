@@ -1,0 +1,46 @@
+<view class="container">
+
+
+  <vtu-navbar title="菜单五的数据"></vtu-navbar>
+  <view class="center">
+    <view class="Cell_Span">
+      <view class="Cell_Span_Title Page_Padding">菜单五的数据</view>
+      
+        <vtu-collapse accordion="{{true}}" bind:change="changeFather" color="#6c6c6c" active-color="orange">
+          <vtu-collapse-item title="{{data_5.title_c1}}" > 
+            <vtu-collapse accordion="{{true}}" bind:change="changeChild" color="#6c6c6c" active-color="orange">
+              <view wx:for='{{data_5.content1}}' wx:key='item'>
+                <vtu-collapse-item title="{{item.title_c1_c}}" > 
+                  <view style="white-space:pre-wrap">
+                    <mp-html content="{{item.content}}" />
+                   </view>
+                </vtu-collapse-item>
+              </view>
+            </vtu-collapse>
+          </vtu-collapse-item>
+        </vtu-collapse>
+
+
+
+
+          <vtu-collapse accordion="{{true}}" bind:change="changeFather" color="#6c6c6c" active-color="orange">
+            <vtu-collapse-item title="{{data_5.title_c2}}" > 
+              <vtu-collapse accordion="{{true}}" bind:change="changeChild" color="#6c6c6c" active-color="orange">
+                <view wx:for='{{data_5.content2}}' wx:key='item'>
+                  <vtu-collapse-item title="{{item.title_c2_c}}" > 
+                    <view style="white-space:pre-wrap">
+                      <mp-html content="{{item.content}}" />
+                    </view>
+                  </vtu-collapse-item>
+                </view>
+              </vtu-collapse>
+            </vtu-collapse-item>
+          </vtu-collapse>
+
+   
+
+       
+    </view>
+  </view>
+
+</view>
